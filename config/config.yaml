@@ -6,3 +6,9 @@ data_ingestion:
   source_URL: https://github.com/Bagewadinitin/ML_projects_Classification/raw/main/Wine.zip  # data file location and download
   local_data_file: artifacts/data_ingestion/data.zip  # once it download from github repo, saves it as data.zip file
   unzip_dir: artifacts/data_ingestion #unzipped file of data saved here
+
+
+data_validation: 
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/WineQT.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
